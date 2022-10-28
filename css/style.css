@@ -3351,14 +3351,6 @@ body::after {
   }
 }
 
-.main-product {
-  display: -ms-grid;
-  display: grid;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: start;
-}
-
 .images-product__slide-ibg {
   padding-bottom: 76.525198939%;
 }
@@ -4096,6 +4088,9 @@ body::after {
   .main-product {
     display: -ms-grid;
     display: grid;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
   }
 
   .main-product__images {
