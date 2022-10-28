@@ -3323,6 +3323,10 @@ body::after {
   max-width-width: 100%;
 }
 
+.product__container {
+  overflow: hidden;
+}
+
 @supports (margin-bottom: clamp( 2.5rem , 1.2692307692rem  +  6.1538461538vw , 7.5rem )) {
   .product__main {
     margin-bottom: clamp( 2.5rem , 1.2692307692rem  +  6.1538461538vw , 7.5rem );
